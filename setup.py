@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'motion_node = pick_place.motion_node:main',
+            'sim_node = pick_place.sim_node:main',
         ],
     },
 )
